@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Лекция</title>
+</head>
+<body>
+<h1>Это лекция (повтор за Ниной Викторовной)</h1>
+<h1><a href="practice.html">ПРАКТИКА"></a></h1>
+<ul>
+    <li><a href="index.html">Главная</a></li>
+    <li><a href="page2.html">Страница 2</a></li>
+    <li><a href="page3.html">Страница 3</a></li>
+</ul>
+
+<form action="#" method="post">
+    <label for="user_name">Введите ваше имя</label><br>
+    <input type="text" name="name" placeholder="Иван" id="user_name"><br>
+
+    <label for="user_surname">Введите вашу фамилию</label><br>
+    <input type="text" name="surname" placeholder="Иванов" id="user_surname"><br>
+
+    <label for="user_password">Введите ваш пароль</label><br>
+    <input type="password" name="password" placeholder="пароль" id="user_password"><br>
+
+    <input type="checkbox" name="subscribe" value="yes" id="subscribe">
+    <label for="subscribe">Я согласен получать рассылку</label><br>
+
+    <label for="user_gender">Выберите ваш пол</label><br>
+    <input type="radio" name="gender" value="male" id="gender_male">
+    <label for="gender_male">Мужской</label><br>
+    <input type="radio" name="gender" value="female" id="gender_female">
+    <label for="gender_female">Женский</label><br>
+
+    <label for="user_review">Оставьте ваш отзыв</label><br>
+    <textarea name="message" rows="3" cols="40" placeholder="Введите ваше сообщение" id="user_review"></textarea><br>
+
+    <label for="user_city">Выберите город проживания</label><br>
+    <select name="city" id="user_city">
+        <option value="msk">Москва</option>
+        <option value="spb">Санкт‑Петербург</option>
+        <option value="tsk">Томск</option>
+    </select><br>
+
+    <input type="button" value="Простая кнопка"><br>
+    <input type="submit" value="Отправка данных">
+</form>    
+</body>
+</html>
